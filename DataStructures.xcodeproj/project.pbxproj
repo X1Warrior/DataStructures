@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		483FBB9E202243E600679583 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBB9D202243E600679583 /* Runner.cpp */; };
 		483FBBA22022443B00679583 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA02022443B00679583 /* Controller.cpp */; };
+		483FBBA62022470C00679583 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA42022470C00679583 /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		483FBB9D202243E600679583 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		483FBBA02022443B00679583 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		483FBBA12022443B00679583 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		483FBBA42022470C00679583 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		483FBBA52022470C00679583 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +74,18 @@
 			children = (
 				483FBBA02022443B00679583 /* Controller.cpp */,
 				483FBBA12022443B00679583 /* Controller.hpp */,
+				483FBBA3202246EA00679583 /* Tools */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		483FBBA3202246EA00679583 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				483FBBA42022470C00679583 /* Timer.cpp */,
+				483FBBA52022470C00679583 /* Timer.hpp */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483FBBA62022470C00679583 /* Timer.cpp in Sources */,
 				483FBB9E202243E600679583 /* Runner.cpp in Sources */,
 				483FBBA22022443B00679583 /* Controller.cpp in Sources */,
 			);
