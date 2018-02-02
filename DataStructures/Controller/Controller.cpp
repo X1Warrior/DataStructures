@@ -30,7 +30,7 @@ void Controller :: findMaxAndMin()
        {
            minIndex = index;
        }
-        if (myData [maxIndex] < myData[index])
+       else if (myData [maxIndex] < myData[index])
         {
             maxIndex = index;
         }
@@ -39,6 +39,15 @@ void Controller :: findMaxAndMin()
     
     searchTimer.stopTimer();
     cout << "The smallest Crime stat is at " << minIndex << " and it is: " << myData[minIndex] << endl;
-    cout << "The smallest Crime stat is at " << maxIndex << " and it is: " << myData[maxIndex] << endl;
+    cout << "The largest Crime stat is at " << maxIndex << " and it is: " << myData[maxIndex] << endl;
     searchTimer.displayInformation();
+}
+void Controller :: testArray()
+{
+    Array<int>zachArray(45);
+    
+    zachArray[0] = 123;
+    zachArray.setAtIndex(0,321);
+    
+    cout<< zachArray.getSize()<< endl;
 }
