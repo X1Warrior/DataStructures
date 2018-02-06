@@ -12,7 +12,9 @@ using namespace std;
 
 void Controller :: start()
 {
-    findMaxAndMin();
+    ArrayTester sample;
+    sample.testArrayUse();
+    sample.testAdvancedArray();
 }
 
 void Controller :: findMaxAndMin()
