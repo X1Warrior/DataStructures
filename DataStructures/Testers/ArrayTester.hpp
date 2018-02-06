@@ -1,0 +1,26 @@
+//
+//  ArrayTester.hpp
+//  DataStructures
+//
+//  Created by Stout, Zachary on 2/6/18.
+//  Copyright © 2018 Stout, Zachary. All rights reserved.
+//
+
+#ifndef ArrayTester_hpp
+#define ArrayTester_hpp
+
+#include <iostream>
+#include "../Model/Structures/Array.hpp"
+#include "../Controller/FileController.hpp"
+#include "../Controller/Tools/Timer.hpp"
+
+
+class ArrayTester
+{
+public:
+    void testArrayUse();
+    void testAdvanvedArray();
+};
+
+
+#endif /* ArrayTester_hpp */
