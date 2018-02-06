@@ -19,7 +19,7 @@ void ArrayTester :: testArrayUse()
     
     for (int index = 0; index < firstArray.getSize(); index++)
     {
-        cout <<firstArray[index] << endl;
+        cout << firstArray[index] << endl;
     }
     
     Array<int> secondArray(400);
@@ -37,3 +37,19 @@ void ArrayTester :: testArrayUse()
     cout << thirdArray[5] << endl;
     
 }
+void ArrayTester :: testAdvancedArray()
+{
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+

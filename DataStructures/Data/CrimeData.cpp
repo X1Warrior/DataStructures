@@ -8,6 +8,12 @@
 
 #include "CrimeData.hpp"
 
+CrimeData :: CrimeData()
+{
+    //Nothing
+    //NADA
+}
+
 CrimeData :: CrimeData(string currentCSVLine)
 {
     stringstream parseCSV(currentCSVLine);

@@ -19,7 +19,7 @@ class ArrayTester
 {
 public:
     void testArrayUse();
-    void testAdvanvedArray();
+    void testAdvancedArray();
 };
 
 
