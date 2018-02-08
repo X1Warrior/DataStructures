@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
+      <x>10</x>
       <y>60</y>
       <w>290</w>
       <h>170</h>
@@ -24,7 +24,7 @@ node{
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
+      <x>410</x>
       <y>60</y>
       <w>370</w>
       <h>170</h>
@@ -41,5 +41,48 @@ class LinearNode : public Node&lt;Type&gt;
 +void setNextNode(LinearNode&lt;Type&gt; * next);
 +LinearNode&lt;Type&gt; * getNextNode();</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>300</y>
+      <w>320</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>_List&lt;Type&gt;_
+--
+# size : int
+--
++ add (Type : void
++ addAtIndex(int, Type) : void
++getFromIndex(int) : Type
++ remove(int) : Type
++ getSize() : int
++ getFront(); LinearNde&lt;Type&gt; *
++ getEnd(); LindearNode&lt;Type&gt; *</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>120</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>220</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
