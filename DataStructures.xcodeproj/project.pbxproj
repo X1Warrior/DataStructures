@@ -145,8 +145,8 @@
 		4888AC07202A42D700270B2A /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
-				4888AC09202A42FE00270B2A /* Node.hpp */,
 				4888AC0D202A461B00270B2A /* LinearNode.hpp */,
+				4888AC09202A42FE00270B2A /* Node.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";

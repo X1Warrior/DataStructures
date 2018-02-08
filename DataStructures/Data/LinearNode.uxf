@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>60</y>
+      <w>290</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>_Node.hpp_
+
+template &lt;class Type&gt;
+node{
+--
+#Type data;
++node();
++Node(Type data);
++void setData(Type data);
++Type getData</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>60</y>
+      <w>370</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>_LinearNode.hpp_
+
+template &lt;class Type&gt;
+class LinearNode : public Node&lt;Type&gt;
+--
+#LinearNode&lt;Type&gt; * next;
++LinearNode();
++LinearNode(Type data);
++LinearNode(Type data, LinearNode&lt;Type&gt; * next);
++void setNextNode(LinearNode&lt;Type&gt; * next);
++LinearNode&lt;Type&gt; * getNextNode();</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
