@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		481CC7702022555500B3675F /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 481CC76D2022555400B3675F /* CrimeData.cpp */; };
+		4820693E2034D0DA007BE6E4 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4820693C2034D0DA007BE6E4 /* LinkedListTester.cpp */; };
 		483FBB9E202243E600679583 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBB9D202243E600679583 /* Runner.cpp */; };
 		483FBBA22022443B00679583 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA02022443B00679583 /* Controller.cpp */; };
 		483FBBA62022470C00679583 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA42022470C00679583 /* Timer.cpp */; };
@@ -32,6 +33,8 @@
 		481CC76E2022555400B3675F /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		481CC76F2022555400B3675F /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		4820693A2034BC7E007BE6E4 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		4820693C2034D0DA007BE6E4 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
+		4820693D2034D0DA007BE6E4 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
 		483FBB932022433D00679583 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		483FBB9D202243E600679583 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		483FBBA02022443B00679583 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 			children = (
 				4888AC04202A33AF00270B2A /* ArrayTester.cpp */,
 				4888AC05202A33AF00270B2A /* ArrayTester.hpp */,
+				4820693C2034D0DA007BE6E4 /* LinkedListTester.cpp */,
+				4820693D2034D0DA007BE6E4 /* LinkedListTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				481CC7702022555500B3675F /* CrimeData.cpp in Sources */,
 				483FBB9E202243E600679583 /* Runner.cpp in Sources */,
 				483FBBA22022443B00679583 /* Controller.cpp in Sources */,
+				4820693E2034D0DA007BE6E4 /* LinkedListTester.cpp in Sources */,
 				4888AC06202A33AF00270B2A /* ArrayTester.cpp in Sources */,
 				483FBBA920224E3600679583 /* FileController.cpp in Sources */,
 			);

@@ -14,7 +14,7 @@ using namespace std; //Used for keyword acess. Use this to make sure your pointe
 #define LinkedList_hpp
 
 template <class Type>
-class LinkedList : public List<Type>
+class LinkedList : public list<Type>
 {
 protected:
     LinearNode<Type> * front;
@@ -37,7 +37,7 @@ public:
     Type remove(int index);
     //Type setAtIndex(int index, Type item);
     //bool contains(Type item);
-}
+};
 template <class Type>
 LinkedList<Type> :: LinkedList()
 {
@@ -58,7 +58,7 @@ LinkedList<Type> :: ~LinkedList()
     }
 }
 template <class Type>
-void LinkedList,Type> :: add(Type item)
+void LinkedList<Type> :: add(Type item)
 {
     LinearNode<Type> * newData = new LinearNode<Type>(item);
     
@@ -77,12 +77,12 @@ void LinkedList,Type> :: add(Type item)
 }
 
 template <class Type>
-Void LinkedList<Type> :: addAtIndex(int index, Type item)
+void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
     assert(index >= 0 && index <= this->size);
     if(index == this->size)
     {
-        add(item)
+        add(item);
     }
     else
     {
@@ -107,15 +107,16 @@ Void LinkedList<Type> :: addAtIndex(int index, Type item)
         this->size++;
     }
 }
-Type LinkedLIst<Type> :: remove(int index)
+template <class Type>
+Type LinkedList<Type> :: remove(int index)
 {
     assert(index >= 0  && index < this->size);
     
     LinearNode<Type> * current = front;
     LinearNode<Type> * toBeRemoved = nullptr;
-    LinearNode<Type> * previous = nullptr:
+    LinearNode<Type> * previous = nullptr;
     
-    Type removeData;
+    Type removedData;
     
     if (index == 0)
     {
@@ -124,10 +125,10 @@ Type LinkedLIst<Type> :: remove(int index)
     }
     else
     {
-        for (int positiont = 0; position < index; positiont++)
+        for (int position = 0; position < index; position++)
         {
             previous = current;
-            current current->getNextNode();
+            current = current->getNextNode();
         }
         
         toBeRemoved = current;
@@ -150,16 +151,20 @@ Type LinkedLIst<Type> :: remove(int index)
     return removedData;
 }
 
+template <class Type>
 LinearNode<Type> * LinkedList<Type> :: getEnd()
 {
     return this->end;
 }
 
+template <class Type>
 LinearNode<Type> * LinkedList<Type> :: getFront()
 {
     return this->end;
 }
-LinearNode<Type> * LinkedList<Type> :: getsize() const
+
+template <class Type>
+int LinkedList<Type> :: getSize() const
 {
     return this->size;
 }

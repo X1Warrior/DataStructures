@@ -9,14 +9,14 @@
 #ifndef Node_hpp
 #define Node_hpp
 
-#include <stdio.h>
+#include <iostream>
 
 template <class Type>
-node{
+class Node{
 //This section is available to All the subclasses of Node
 protected:
     Type data;
-public
+public:
     Node();
     Node(Type data);
     void setData(Type data);

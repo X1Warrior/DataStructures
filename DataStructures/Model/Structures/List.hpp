@@ -10,7 +10,7 @@
 #define List_hpp
 
 #include <assert.h>
-#include "../../Nodes/LinearNode.hpp"
+#include "../../Model/Nodes/LinearNode.hpp"
 
 template <class Type>
 class list {
@@ -26,7 +26,7 @@ virtual Type getFromIndex(int index) = 0;
 //Helper
 virtual int getSize() const = 0;
 virtual LinearNode<Type> * getFront() = 0;
-virtual LinearNode<Type> * getend() = 0;
+virtual LinearNode<Type> * getEnd() = 0;
 };
 
 #endif /* List_hpp */

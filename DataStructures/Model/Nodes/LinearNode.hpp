@@ -9,7 +9,7 @@
 #ifndef LinearNode_hpp
 #define LinearNode_hpp
 
-#include <Node.hpp>
+#include "Node.hpp"
 
 template <class Type>
 class LinearNode : public Node<Type>
@@ -67,7 +67,7 @@ void LinearNode<Type> :: setNextNode(LinearNode<Type> * nextNodePointer)
 }
 
 template <class Type>
-LinearNode<Type> * LinearNOde<Type> :: getNextNode()
+LinearNode<Type> * LinearNode<Type> :: getNextNode()
 {
     return next;
 }
