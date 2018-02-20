@@ -37,6 +37,17 @@ void LinkedListTester :: testListBasics()
 
     cout << numbers.getFront()->getData() << " is at the front of the list and should be 2312" << endl;
     cout << numbers.getEnd()->getData() << " is at the end of the list and should be 32567" << endl;
+    
+    LinkedList<string> names;
+    names.add("Zach");
+    cout << names.getFront()->getData() << " is at the front of the list." << endl;
+    cout << names.getEnd()->getData() << " is at the end of the list." << endl;
+    
+    names.add("Stout");
+    cout << names.getFront()->getData() << " is at the front of the list." << endl;
+    cout << names.getEnd()->getData() << " is at the end of the list." << endl;
+     
+    
 }
 
 void LinkedListTester :: testListWithData()
