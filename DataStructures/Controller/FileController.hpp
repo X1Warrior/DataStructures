@@ -15,7 +15,7 @@
 #include <vector>
 #include <sstream>
 #include "../Data/CrimeData.hpp"
-#include "../Model/Structures/LinkedList.hpp"
+#include "../Model/Structures/Linear/LinkedList.hpp"
 
 using namespace std;
 

@@ -48,6 +48,9 @@
 		4888AC05202A33AF00270B2A /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		4888AC09202A42FE00270B2A /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		4888AC0D202A461B00270B2A /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		48A1CF43203F4A7F00506F10 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		48A1CF46203F4A9800506F10 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		48A1CF49203F4AB600506F10 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		48B7DF9F202CE1A80029BBCF /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,9 +136,7 @@
 		485DB9962024EDEF00797815 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				485DB9982024EE2F00797815 /* Array.hpp */,
-				48B7DF9F202CE1A80029BBCF /* List.hpp */,
-				4820693A2034BC7E007BE6E4 /* LinkedList.hpp */,
+				48A1CF40203F48BA00506F10 /* Linear */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -158,6 +159,19 @@
 				4888AC09202A42FE00270B2A /* Node.hpp */,
 			);
 			path = Nodes;
+			sourceTree = "<group>";
+		};
+		48A1CF40203F48BA00506F10 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				485DB9982024EE2F00797815 /* Array.hpp */,
+				48B7DF9F202CE1A80029BBCF /* List.hpp */,
+				4820693A2034BC7E007BE6E4 /* LinkedList.hpp */,
+				48A1CF43203F4A7F00506F10 /* Queue.hpp */,
+				48A1CF46203F4A9800506F10 /* Stack.hpp */,
+				48A1CF49203F4AB600506F10 /* CircularList.hpp */,
+			);
+			path = Linear;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
