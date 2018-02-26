@@ -14,6 +14,7 @@
 		483FBBA62022470C00679583 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA42022470C00679583 /* Timer.cpp */; };
 		483FBBA920224E3600679583 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA720224E3600679583 /* FileController.cpp */; };
 		4888AC06202A33AF00270B2A /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4888AC04202A33AF00270B2A /* ArrayTester.cpp */; };
+		48EDB4E6204494A000FFEA45 /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48EDB4E4204494A000FFEA45 /* TestingStacksAndQueues.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,9 @@
 		48A1CF46203F4A9800506F10 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		48A1CF49203F4AB600506F10 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		48B7DF9F202CE1A80029BBCF /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		48EDB4E4204494A000FFEA45 /* TestingStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestingStacksAndQueues.cpp; sourceTree = "<group>"; };
+		48EDB4E5204494A000FFEA45 /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
+		48EDB4E82044993A00FFEA45 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 				4888AC05202A33AF00270B2A /* ArrayTester.hpp */,
 				4820693C2034D0DA007BE6E4 /* LinkedListTester.cpp */,
 				4820693D2034D0DA007BE6E4 /* LinkedListTester.hpp */,
+				48EDB4E4204494A000FFEA45 /* TestingStacksAndQueues.cpp */,
+				48EDB4E5204494A000FFEA45 /* TestingStacksAndQueues.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 			children = (
 				4888AC0D202A461B00270B2A /* LinearNode.hpp */,
 				4888AC09202A42FE00270B2A /* Node.hpp */,
+				48EDB4E82044993A00FFEA45 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -236,6 +243,7 @@
 				483FBB9E202243E600679583 /* Runner.cpp in Sources */,
 				483FBBA22022443B00679583 /* Controller.cpp in Sources */,
 				4820693E2034D0DA007BE6E4 /* LinkedListTester.cpp in Sources */,
+				48EDB4E6204494A000FFEA45 /* TestingStacksAndQueues.cpp in Sources */,
 				4888AC06202A33AF00270B2A /* ArrayTester.cpp in Sources */,
 				483FBBA920224E3600679583 /* FileController.cpp in Sources */,
 			);
