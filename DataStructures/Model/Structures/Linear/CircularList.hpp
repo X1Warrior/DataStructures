@@ -24,8 +24,8 @@ private:
 public:
     CirularList();
     ~CircularList();
-    void ass(Type item);
-    void assAtIndex(int index, Type item);
+    void add(Type item);
+    void addAtIndex(int index, Type item);
     Type remove(int index);
     Type getFromIndex(int index);
     int getSize() const;

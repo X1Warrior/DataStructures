@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		481CC7702022555500B3675F /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 481CC76D2022555400B3675F /* CrimeData.cpp */; };
 		4820693E2034D0DA007BE6E4 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4820693C2034D0DA007BE6E4 /* LinkedListTester.cpp */; };
+		48221810205AE99500FB76C1 /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4822180E205AE99500FB76C1 /* SortingTester.cpp */; };
 		483FBB9E202243E600679583 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBB9D202243E600679583 /* Runner.cpp */; };
 		483FBBA22022443B00679583 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA02022443B00679583 /* Controller.cpp */; };
 		483FBBA62022470C00679583 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA42022470C00679583 /* Timer.cpp */; };
 		483FBBA920224E3600679583 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 483FBBA720224E3600679583 /* FileController.cpp */; };
 		4888AC06202A33AF00270B2A /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4888AC04202A33AF00270B2A /* ArrayTester.cpp */; };
 		489CC245204DC5340069822C /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 489CC243204DC5340069822C /* RecursionTester.cpp */; };
+		48C8BAC22060361100E78720 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48C8BAC02060361100E78720 /* Graph.cpp */; };
 		48EDB4E6204494A000FFEA45 /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48EDB4E4204494A000FFEA45 /* TestingStacksAndQueues.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		4820693A2034BC7E007BE6E4 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		4820693C2034D0DA007BE6E4 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
 		4820693D2034D0DA007BE6E4 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
+		4822180E205AE99500FB76C1 /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
+		4822180F205AE99500FB76C1 /* SortingTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortingTester.hpp; sourceTree = "<group>"; };
 		483FBB932022433D00679583 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		483FBB9D202243E600679583 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		483FBBA02022443B00679583 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		48A1CF46203F4A9800506F10 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		48A1CF49203F4AB600506F10 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		48B7DF9F202CE1A80029BBCF /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		48C8BAC02060361100E78720 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		48C8BAC12060361100E78720 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		48EDB4E4204494A000FFEA45 /* TestingStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestingStacksAndQueues.cpp; sourceTree = "<group>"; };
 		48EDB4E5204494A000FFEA45 /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
 		48EDB4E82044993A00FFEA45 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 		485DB9962024EDEF00797815 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
+				48C8BABF206035E200E78720 /* NonLinear */,
 				48A1CF40203F48BA00506F10 /* Linear */,
 			);
 			path = Structures;
@@ -159,6 +166,8 @@
 				48EDB4E5204494A000FFEA45 /* TestingStacksAndQueues.hpp */,
 				489CC243204DC5340069822C /* RecursionTester.cpp */,
 				489CC244204DC5340069822C /* RecursionTester.hpp */,
+				4822180E205AE99500FB76C1 /* SortingTester.cpp */,
+				4822180F205AE99500FB76C1 /* SortingTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -184,6 +193,15 @@
 				48A1CF49203F4AB600506F10 /* CircularList.hpp */,
 			);
 			path = Linear;
+			sourceTree = "<group>";
+		};
+		48C8BABF206035E200E78720 /* NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+				48C8BAC02060361100E78720 /* Graph.cpp */,
+				48C8BAC12060361100E78720 /* Graph.hpp */,
+			);
+			path = NonLinear;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C8BAC22060361100E78720 /* Graph.cpp in Sources */,
 				489CC245204DC5340069822C /* RecursionTester.cpp in Sources */,
 				483FBBA62022470C00679583 /* Timer.cpp in Sources */,
 				481CC7702022555500B3675F /* CrimeData.cpp in Sources */,
 				483FBB9E202243E600679583 /* Runner.cpp in Sources */,
 				483FBBA22022443B00679583 /* Controller.cpp in Sources */,
+				48221810205AE99500FB76C1 /* SortingTester.cpp in Sources */,
 				4820693E2034D0DA007BE6E4 /* LinkedListTester.cpp in Sources */,
 				48EDB4E6204494A000FFEA45 /* TestingStacksAndQueues.cpp in Sources */,
 				4888AC06202A33AF00270B2A /* ArrayTester.cpp in Sources */,
