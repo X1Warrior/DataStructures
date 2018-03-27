@@ -12,9 +12,8 @@ using namespace std;
 
 void Controller :: start()
 {
-    RecursionTester test;
-    test.testRecursionNumbers();
-    test.testRecursionString();
+    GraphTester test;
+    test.testGraphs();
 }
 
 void Controller :: findMaxAndMin()
