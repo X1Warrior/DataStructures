@@ -33,4 +33,5 @@ public:
     virtual void preOrderTraversal() = 0;
     virtual void postOrderTraversal() = 0;
 };
+
 #endif /* Tree_hpp */

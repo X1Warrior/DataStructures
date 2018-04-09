@@ -12,8 +12,8 @@ using namespace std;
 
 void Controller :: start()
 {
-    GraphTester test;
-    test.testGraphs();
+    BinaryTreeTester myTest;
+    myTest.doTreeStuff();
 }
 
 void Controller :: findMaxAndMin()
