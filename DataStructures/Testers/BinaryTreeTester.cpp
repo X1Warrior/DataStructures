@@ -8,8 +8,6 @@
 
 #include "BinaryTreeTester.hpp"
 
-#include "BinaryTreeTester.hpp"
-
 void BinaryTreeTester :: doTreeStuff()
 {
     numberTree.insert(17);
@@ -23,15 +21,29 @@ void BinaryTreeTester :: doTreeStuff()
     numberTree.insert(-1235);
     numberTree.insert(10);
     
-    cout << "In Order Traversal - Numbers" << endl;
-    numberTree.inOrderTraversal();
+    cout << "Size of tree - Numbers" << endl;
+    cout << numberTree.getSize() << endl;
     cout << endl;
-    cout << "Pre Order Traversal - Numbers" << endl;
-    numberTree.preOrderTraversal();
+    cout << "Height of tree - Numbers" << endl;
+    cout << numberTree.getHeight() << endl;
     cout << endl;
-    cout << "Post Order Traversal - Numbers" << endl;
-    numberTree.postOrderTraversal();
+    cout << "Is balanced - Numbers" << endl;
+    cout << numberTree.isBalanced() << endl;
     cout << endl;
+    cout << "Is complete - Numbers" << endl;
+    cout << numberTree.isComplete() << endl;
+    cout << endl;
+    
+    
+    //    cout << "In Order Traversal - Numbers" << endl;
+    //    numberTree.inOrderTraversal();
+    //    cout << endl;
+    //    cout << "Pre Order Traversal - Numbers" << endl;
+    //    numberTree.preOrderTraversal();
+    //    cout << endl;
+    //    cout << "Post Order Traversal - Numbers" << endl;
+    //    numberTree.postOrderTraversal();
+    //    cout << endl;
     
     wordTree.insert("Bob");
     wordTree.insert("Tom");
@@ -43,13 +55,26 @@ void BinaryTreeTester :: doTreeStuff()
     wordTree.insert("Luke");
     wordTree.insert("William");
     
-    cout << "In Order Traversal - Words" << endl;
-    wordTree.inOrderTraversal();
+    cout << "Size of tree - Words" << endl;
+    cout << wordTree.getSize() << endl;
     cout << endl;
-    cout << "Pre Order Traversal - Words" << endl;
-    wordTree.preOrderTraversal();
+    cout << "Height of tree - Words" << endl;
+    cout << wordTree.getHeight() << endl;
     cout << endl;
-    cout << "Post Order Traversal - Words" << endl;
-    wordTree.postOrderTraversal();
+    cout << "Is balanced - Words" << endl;
+    cout << wordTree.isBalanced() << endl;
     cout << endl;
+    cout << "Is complete - Words" << endl;
+    cout << wordTree.isComplete() << endl;
+    cout << endl;
+    
+    //    cout << "In Order Traversal - Words" << endl;
+    //    wordTree.inOrderTraversal();
+    //    cout << endl;
+    //    cout << "Pre Order Traversal - Words" << endl;
+    //    wordTree.preOrderTraversal();
+    //    cout << endl;
+    //    cout << "Post Order Traversal - Words" << endl;
+    //    wordTree.postOrderTraversal();
+    //    cout << endl;
 }
