@@ -6,15 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DataStructures/Model/Structures/NonLinear/BinarySearchTree.hpp"
-            timestampString = "544992265.255222"
+            timestampString = "545166987.473199"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
+            startingLineNumber = "506"
+            endingLineNumber = "506"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>

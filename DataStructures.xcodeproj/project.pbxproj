@@ -44,6 +44,7 @@
 		4820693D2034D0DA007BE6E4 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
 		4822180E205AE99500FB76C1 /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
 		4822180F205AE99500FB76C1 /* SortingTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortingTester.hpp; sourceTree = "<group>"; };
+		483518CE20866B8A00D119D9 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		483FBB932022433D00679583 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		483FBB9D202243E600679583 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		483FBBA02022443B00679583 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -213,6 +214,7 @@
 				48619F80206AC888008813DB /* Tree.hpp */,
 				48C8BAC12060361100E78720 /* Graph.hpp */,
 				4859546A207BEC02004A5017 /* BinarySearchTree.hpp */,
+				483518CE20866B8A00D119D9 /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
