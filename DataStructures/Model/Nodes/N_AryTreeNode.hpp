@@ -33,17 +33,17 @@ public:
 };
 
 template <class Type>
-class N_AryTreeNode<Type> :: N_AryTreeNode()
+ N_AryTreeNode<Type> :: N_AryTreeNode()
 { //unused
 }
 
 template <class Type>
-class N_AryTreeNode<Type> :: N_AryTreeNode(Type data) : Node<Type>(data)
+N_AryTreeNode<Type> :: N_AryTreeNode(Type data) : Node<Type>(data)
 {
 }
 
 template <class Type>
-class N_AryTreeNode<Type> :: ~N_ArayTreeNode
+N_AryTreeNode<Type> :: ~N_ArayTreeNode
 {
     for (int index = nodes.size() - 1; index >= 0; index --)
     {
